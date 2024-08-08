@@ -3,7 +3,7 @@ import { MainLayout } from "../../layouts";
 
 const About = () => {
 	return (
-		<MainLayout showHeader={false}>
+		<MainLayout showHeader={true}>
 			<div>About</div>
 		</MainLayout>
 	);
