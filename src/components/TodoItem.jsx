@@ -1,6 +1,6 @@
 import React from "react";
 
-export const TodoItem = ({ todo, onDelete }) => {
+const TodoItem = ({ todo, onDelete }) => {
 	return (
 		<div>
 			<h4>{todo.title}</h4>
@@ -16,3 +16,5 @@ export const TodoItem = ({ todo, onDelete }) => {
 		</div>
 	);
 };
+
+export { TodoItem };

@@ -1,7 +1,7 @@
 import React from "react";
 import { TodoItem } from "./TodoItem";
 
-export const Todos = (props) => {
+const Todos = (props) => {
 	const mystyle = {
 		minHeight: "21.5vh",
 	};
@@ -22,3 +22,5 @@ export const Todos = (props) => {
 		</div>
 	);
 };
+
+export { Todos };

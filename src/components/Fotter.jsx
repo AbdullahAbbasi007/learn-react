@@ -1,5 +1,5 @@
 import React from "react";
-export const Fotter = () => {
+const MainFooter = () => {
 	let parastyle = {
 		margin: "0",
 	};
@@ -11,3 +11,5 @@ export const Fotter = () => {
 		</footer>
 	);
 };
+
+export { MainFooter };
